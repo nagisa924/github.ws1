@@ -1,0 +1,33 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Noto Serif JP", serif;
+    /* font-family: "Montserrat", "Hiragino Sans","Noto Sans JP", "serif", "sans-serif"; */
+}
+
+.wrapper {
+    /* width: 90%; */
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px;
+    /* margin-top: 80px; */
+}
+
+.heading__h2 {
+    font-size: 128px;
+    text-align: right;
+    padding-bottom: 30px;
+    color: rgba(184, 222, 222, 0.3);
+}
+
+@media screen and (max-width:767px) {
+    .heading__h2 {
+        font-size: 64px;
+    }
+
+    .heading__h2-jp {
+        font-size: 24px;
+    }
+}
